@@ -111,7 +111,7 @@
         "format": "{:%H:%M 󰃰  %a %d/%m}",
         // "timezone": "America/New_York",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format-alt": "[ {:%H:%M 󰃰  %A, %d %B %Y} ]"
+        "format-alt": "{:%H:%M 󰃰  %A, %d %B %Y}"
     },
     "cpu": {
         "format": "{usage}% "
