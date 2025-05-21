@@ -110,3 +110,15 @@ Instalar waybar
 ~ sudo pacman -S ufw
 ~ sudo systemctl enable --now ufw.service
 ~ sudo ufw enable
+
+~ sudo pacman -Syu
+~ sudo pacman -S curl
+~ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+~ source $HOME/.cargo/env
+~ sudo pacman -S gtk3 gtk-layer-shell pango gdk-pixbuf2 libdbusmenu-gtk3 cairo glib2 gcc-libs glibc
+
+~ git clone https://github.com/elkowar/eww
+~ cd eww
+~ cargo build --release --no-default-features --features=wayland
+~ cd target/release
+~ chmod +x ./eww
